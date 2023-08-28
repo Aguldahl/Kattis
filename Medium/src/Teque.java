@@ -36,6 +36,9 @@ public class Teque {
             tail = newNode;
             return;
         }
+        if (size==1) {
+
+        }
         Node pointer = head;
         for (int i = 0; i < Math.floor((size + 1) / 2) - 1; i++) {
             pointer = pointer.next;
