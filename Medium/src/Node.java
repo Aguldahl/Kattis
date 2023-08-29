@@ -1,6 +1,7 @@
 public class Node {
     int val;
     Node next = null;
+    Node prev = null;
 
     Node(int val) {
         this.val = val;
